@@ -1,0 +1,20 @@
+*** begin compilation
+*** Push a new environment
+*** Put m => integer into STACK(0) environment
+*** Put s => string into STACK(0) environment
+*** Put main => (args:list<string>) -> void into STACK(0) environment
+*** Push a new environment
+*** Put args => list<string> into STACK(1) environment
+*** Get m from STACK(1) environment <= null
+*** Get m from STACK(0) environment <= integer
+*** Get s from STACK(1) environment <= null
+*** Get s from STACK(0) environment <= string
+*** Put j => integer into STACK(1) environment
+*** Get m from STACK(1) environment <= null
+*** Get m from STACK(0) environment <= integer
+*** Get j from STACK(1) environment <= integer
+*** Pop an environment
+SEQ [left=SEQ [left=SEQ [left=MOVE [target=MEM [exp=fr.ubordeaux.deptinfo.compilation.lea.intermediate.NAME@3754a4bf], source=CONST [value=36]], right=MOVE [target=MEM [exp=fr.ubordeaux.deptinfo.compilation.lea.intermediate.NAME@75d4a5c2], source=fr.ubordeaux.deptinfo.compilation.lea.intermediate.NAME@557caf28]], right=MOVE [target=MEM [exp=fr.ubordeaux.deptinfo.compilation.lea.intermediate.NAME@408d971b], source=CONST [value=1]]], right=EXPSTM [exp=fr.ubordeaux.deptinfo.compilation.lea.intermediate.CALL@6c6cb480]]
+*** Pop an environment
+*** Put main => m:integer X s:string X main:(args:list<string>) -> void into CLASSE environment
+*** end compilation
